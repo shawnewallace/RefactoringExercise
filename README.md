@@ -1,13 +1,16 @@
-## This is a sample project in .NET(C#) or Java to facilitate practicing refactoring patterns
+## Intro
+
+This is a sample project in .NET(C#) and Java to facilitate practicing refactoring patterns. Please feel free to make the code as crappy as possible without breaking the tests.
 
 ### Process
 
-The project provides a wealth of refactoring opportunities.
+Here is a sample process to go through that shows both how difficult bugs are to find in this code and how well refactored and tested code can be easy to maintain.
 
 1. I would tweak 1 thing to cause the substitution test to fail before introducing to students and first ask them to fix the bug. Give them maybe 2 minutes.
-2. Start progressively refactoring anywhere in the code whenever you are green.
-3. Add tests as appropriate.
-4. Go back and make the same change. See how long it takes the class to fix the same bug.
+2. Undo the tweak above to get tests green.
+3. Start progressively refactoring anywhere in the code whenever you are green.
+4. Add tests as appropriate.
+5. Go back and make the same change. See how long it takes the class to fix the same bug.
 
 ### Refactoring Opportunities
 
