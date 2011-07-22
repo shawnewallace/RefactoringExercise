@@ -1,0 +1,17 @@
+[Oo]bj
+[Bb]in
+[Ss]ettings*/
+*.user
+*.suo
+*.[Cc]ache
+*.bak
+*.ncb
+*.log
+*.DS_Store
+[Tt]humbs.db
+_ReSharper.*
+*.vshost.*
+*results.xml
+[Bb]uildProcessTemplates
+*.orig
+[Ss]ettings
