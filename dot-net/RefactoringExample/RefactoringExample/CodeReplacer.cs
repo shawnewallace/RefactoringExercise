@@ -39,7 +39,7 @@ namespace RefactoringExample
                 int templateSplitBegin = template.IndexOf("%CODE%");
                 int templateSplitEnd = templateSplitBegin + 6;
                 String templatePartOne = template.Substring(0, templateSplitBegin);
-                String templatePartTwo = template.Substring(templateSplitEnd, template.Length - templateSplitEnd);
+                String templatePartTwo = template.Substring(templateSplitEnd, template.Length - 1);
                 _code = reqId.ToString();
                 template = templatePartOne + _code + templatePartTwo;
 
@@ -47,7 +47,7 @@ namespace RefactoringExample
                 templateSplitBegin = template.IndexOf("%ALTCODE%");
                 templateSplitEnd = templateSplitBegin + 9;
                 templatePartOne = template.Substring(0, templateSplitBegin);
-                templatePartTwo = template.Substring(templateSplitEnd, template.Length - templateSplitEnd);
+                templatePartTwo = template.Substring(templateSplitEnd, template.Length - 1);
                 _altcode = _code.Substring(0, 4) + "-" + _code.Substring(4, 4);
                 output.Write(templatePartOne + _altcode + templatePartTwo);
             }
