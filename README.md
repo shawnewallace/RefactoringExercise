@@ -1,6 +1,6 @@
 ## Intro
 
-This is a sample project in .NET(C#) and Java to facilitate practicing refactoring patterns. Please feel free to make the code as crappy as possible without breaking the tests.
+This is a sample project in .NET(C#) and Java to facilitate practicing refactoring patterns. Please feel free to make the code as crappy as possible without breaking the tests. The examples listed here are heavily borrowed from the [Extreme Programming Explored book](http://www.amazon.com/exec/obidos/ASIN/0201733978/xp123com) by William C. Wake.
 
 ### Process
 
